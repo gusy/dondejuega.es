@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>¿DóndeJuega?</title>
+    <meta name="description" content="">
+    <meta name="author" content="Carlos Herrera Yagüe (@cyague)">
+    <!-- Mobile viewport optimization http://goo.gl/b9SaQ -->
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta http-equiv="cleartype" content="on">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!-- For iPhone 4 with high-resolution Retina display: -->
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/logo_dondejuega@2x.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/logo_dondejuega-72.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/images/logo_dondejuega.png">
+    <link rel="apple-touch-startup-image" href="assets/images/default.png">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="./lungo.js/lungo-1.0.4.min.css">
+    <link rel="stylesheet" href="./lungo.js/lungo-1.0.4.min.icons.css">
+    <link rel="stylesheet" href="./lungo.js/lungo.theme.default.css">
+    <link rel="stylesheet" href="./assets/stylesheets/app.css">
+    <link href='http://fonts.googleapis.com/css?family=Dosis:400,600' rel='stylesheet' type='text/css'>
+</head>
+
+<body class="app" id="body">
+    
+    <section id="main">
+        <header data-title="Cargando..">
+            <a href="#day2" data-icon="right" data-target="section" class="onright button" style="float:right"></a>
+        </header>
+        <article id="day1games" class="list scrollable">
+      
+        </article>
+	<footer id="banneradmob" style="padding:0px;font-family: 'Dosis', sans-serif;text-aling:center;color:#fff;font-size:25px">      
+
+	<center>www.dondejuega.es</center>
+	</footer>
+
+    </section>
+
+        
+    <section id="day2">
+        <header data-title="Cargando..">
+            <a href="#main" data-icon="left" data-target="section" class="onleft button" style="float:left"></a>
+            <a href="#day3" data-icon="right" data-target="section" class="onright button" style="float:right"></a>
+        </header>
+        <article id="day2games" class="list scrollable">
+      
+        </article>      
+    </section>
+    <section id="day3">
+        <header data-title="Cargando..">
+            <a href="#day2" data-icon="left" data-target="section" class="onleft button" style="float:left"></a>
+            <a href="#day4" data-icon="right" data-target="section" class="onright button" style="float:right"></a>
+        </header>
+        <article id="day3games" class="list scrollable">
+      
+        </article>      
+    </section>
+    <section id="day4">
+        <header data-title="Cargando..">
+            <a href="#day3" data-icon="left" data-target="section" class="onleft button" style="float:left"></a>
+            <a href="#day5" data-icon="right" data-target="section" class="onright button" style="float:right"></a>
+        </header>
+        <article id="day4games" class="list scrollable">
+      
+        </article>      
+    </section>
+    <section id="day5">
+        <header data-title="Cargando..">
+            <a href="#day4" data-icon="left" data-target="section" class="onleft button" style="float:left"></a>
+            <a href="#day6" data-icon="right" data-target="section" class="onright button" style="float:right"></a>
+        </header>
+        <article id="day5games" class="list scrollable">
+      
+        </article>      
+    </section>
+    <section id="day6">
+        <header data-title="Cargando..">
+            <a href="#day5" data-icon="left" data-target="section" class="onleft button" style="float:left"></a>
+        </header>
+        <article id="day6games" class="list scrollable">
+      
+        </article>      
+    </section>
+
+
+
+
+    <!-- LungoJS (Production mode) -->
+<script src="lungo.js/lungo-1.0.4.packed.js"></script>
+      <!-- 3rd party Libraries-->
+        <script src="./src/lib/zepto.js"></script>
+    <script src="./src/lib/iscroll-lite.js"></script>
+    <!-- LungoJS - Sandbox App -->
+   <script src="app/dondejuega.js"></script>
+   <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-11858028-4']);
+  _gaq.push(['_setDomainName', 'dondejuega.es']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script> 
+</body>
+</html>
